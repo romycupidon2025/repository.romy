@@ -4,9 +4,14 @@
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/romy/repository.romy/master/repo/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/romy/repository.romy/master/repo/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/romy/repository.romy/DEFAULT_BRANCH_NAME_HERE/repo/zips/</datadir>
+            <datadir zip="true">https://raw.githubusercontent.com/romy/repository.romy/master/repo/zips/</datadir>
         </dir>
 		
+        <dir minversion="20.9.1">
+            info compressed="false">https://raw.githubusercontent.com/romy/repository.romy/master/omega/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/romy/repository.romy/master/omega/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/romy/repository.romy/master/omega/zips/</datadir>
+        </dir>
 		
 		
 		
