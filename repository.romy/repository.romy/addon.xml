@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.romy" name="Romy Repository" version="1.0" provider-name="romy">
+    <extension point="xbmc.addon.repository" name="Romy Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/romy/repository.romy/master/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/romy/repository.romy/master/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/romy/repository.romy/master/repo/zips/</datadir>
+        </dir>
+		
+        <dir minversion="20.9.1">
+            info compressed="false">https://raw.githubusercontent.com/romy/repository.romy/master/omega/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/romy/repository.romy/master/omega/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/romy/repository.romy/master/omega/zips/</datadir>
+        </dir>
+		
+		
+		
+		
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Romy Repository</summary>
+        <description>Repository, need for me...</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>

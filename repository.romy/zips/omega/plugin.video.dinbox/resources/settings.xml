@@ -1,0 +1,11 @@
+<settings>
+    <category label="Autentificare">
+        <setting id="autentificare" type="text" label="Utilizator" default="" />
+        <setting id="parola" type="text" label="Parolă" default="" option="visible" />
+    </category>
+    <category id="__internal__">
+        <setting id="cached_authkey" type="text" visible="true" />
+        <setting id="cached_sesskey" type="text" visible="true" />
+        <setting id="cached_auth_time" type="number" visible="true" />
+    </category>
+</settings>
